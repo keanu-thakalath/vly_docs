@@ -1,0 +1,2 @@
+AreaChart
+An Area chart component in Recharts.

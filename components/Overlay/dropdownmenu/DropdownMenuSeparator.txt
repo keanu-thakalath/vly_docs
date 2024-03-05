@@ -1,0 +1,2 @@
+DropdownMenuSeparator
+Dropdown Menu Separator Component. Used to visually separate items in the dropdown menu.

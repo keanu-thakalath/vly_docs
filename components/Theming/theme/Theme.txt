@@ -1,0 +1,9 @@
+Theme
+A theme provider for radix components.
+
+    This should be applied as `App.theme` to apply the theme to all radix
+    components in the app with the given settings.
+
+    It can also be used in a normal page to apply specified properties to all
+    child elements as an override of the main theme.
+    

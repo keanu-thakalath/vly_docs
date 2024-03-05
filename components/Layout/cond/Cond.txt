@@ -1,0 +1,2 @@
+Cond
+Render one of two components based on a condition.

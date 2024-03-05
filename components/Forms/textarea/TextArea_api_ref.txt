@@ -1,0 +1,25 @@
+Props:
+name='size' type_=reflex.vars.Var[typing.Literal['1', '2', '3']] description=' The size of the text area: "1" | "2" | "3"'
+name='variant' type_=reflex.vars.Var[typing.Literal['classic', 'surface', 'soft']] description=' The variant of the text area'
+name='color_scheme' type_=reflex.vars.Var[typing.Literal['tomato', 'red', 'ruby', 'crimson', 'pink', 'plum', 'purple', 'violet', 'iris', 'indigo', 'blue', 'cyan', 'teal', 'jade', 'green', 'grass', 'brown', 'orange', 'sky', 'mint', 'lime', 'yellow', 'amber', 'gold', 'bronze', 'gray']] description=' The color of the text area'
+name='auto_complete' type_=reflex.vars.Var[bool] description=' Whether the form control should have autocomplete enabled'
+name='auto_focus' type_=reflex.vars.Var[bool] description=' Automatically focuses the textarea when the page loads'
+name='dirname' type_=reflex.vars.Var[str] description=" Name part of the textarea to submit in 'dir' and 'name' pair when form is submitted"
+name='disabled' type_=reflex.vars.Var[bool] description=' Disables the textarea'
+name='form' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Associates the textarea with a form (by id)'
+name='max_length' type_=reflex.vars.Var[int] description=' Maximum number of characters allowed in the textarea'
+name='min_length' type_=reflex.vars.Var[int] description=' Minimum number of characters required in the textarea'
+name='name' type_=reflex.vars.Var[str] description=' Name of the textarea, used when submitting the form'
+name='placeholder' type_=reflex.vars.Var[str] description=' Placeholder text in the textarea'
+name='read_only' type_=reflex.vars.Var[bool] description=' Indicates whether the textarea is read-only'
+name='required' type_=reflex.vars.Var[bool] description=' Indicates that the textarea is required'
+name='rows' type_=reflex.vars.Var[str] description=' Visible number of lines in the text control'
+name='value' type_=reflex.vars.Var[str] description=' The controlled value of the textarea, read only unless used with on_change'
+name='wrap' type_=reflex.vars.Var[str] description=' How the text in the textarea is to be wrapped when submitting the form'
+
+Events:
+('on_focus', {'description': 'Function or event handler called when the element (or some element inside of it) receives focus. For example, it is called when the user clicks on a text input.'})
+('on_blur', {'description': 'Function or event handler called when focus has left the element (or left some element inside of it). For example, it is called when the user clicks outside of a focused text input.'})
+('on_change', {'description': 'The on_change event handler is called when the value or checked state of the component changes.'})
+('on_key_down', {'description': 'The on_key_down event handler is called when the user presses a key.'})
+('on_key_up', {'description': 'The on_key_up event handler is called when the user releases a key.'})

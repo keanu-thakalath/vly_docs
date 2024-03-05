@@ -1,0 +1,2 @@
+Fragment
+A React fragment to return multiple components from a function without wrapping it in a container.

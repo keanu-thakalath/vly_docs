@@ -1,0 +1,14 @@
+Props:
+name='open' type_=reflex.vars.Var[bool] description=' Whether the drawer is open or not.'
+name='should_scale_background' type_=reflex.vars.Var[bool] description=' Enable background scaling, it requires an element with [vaul-drawer-wrapper] data attribute to scale its background.'
+name='close_threshold' type_=reflex.vars.Var[float] description=' Number between 0 and 1 that determines when the drawer should be closed.'
+name='snap_points' type_=typing.List[typing.Union[str, float]] description=" Array of numbers from 0 to 100 that corresponds to % of the screen a given snap point should take up. Should go from least visible. Also Accept px values, which doesn't take screen height into account."
+name='fade_from_index' type_=reflex.vars.Var[int] description=' Index of a snapPoint from which the overlay fade should be applied. Defaults to the last snap point.'
+name='scroll_lock_timeout' type_=reflex.vars.Var[int] description=' Duration for which the drawer is not draggable after scrolling content inside of the drawer. Defaults to 500ms'
+name='modal' type_=reflex.vars.Var[bool] description=' When `False`, it allows to interact with elements outside of the drawer without closing it. Defaults to `True`.'
+name='direction' type_=reflex.vars.Var[typing.Literal['top', 'bottom', 'left', 'right']] description=' Direction of the drawer. Defaults to `"bottom"`'
+name='preventScrollRestoration' type_=reflex.vars.Var[bool] description=' When `True`, it prevents scroll restoration. Defaults to `True`.'
+name='as_child' type_=reflex.vars.Var[bool] description=' Change the default rendered element for the one passed as a child.'
+
+Events:
+('on_open_change', {'description': 'The on_open_change event handler is called when the open state of the component changes.'})

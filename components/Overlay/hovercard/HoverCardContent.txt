@@ -1,0 +1,2 @@
+HoverCardContent
+Contains the content of the open hover card.

@@ -1,0 +1,2 @@
+Props:
+name='size' type_=reflex.vars.Var[typing.Literal['1', '2', '3', '4', '5', '6', '7', '8', '9']] description=' Text size: "1" - "9"'

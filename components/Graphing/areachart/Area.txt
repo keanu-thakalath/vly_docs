@@ -1,0 +1,2 @@
+Area
+An Area component in Recharts.

@@ -1,0 +1,2 @@
+Video
+Video component share with audio component.

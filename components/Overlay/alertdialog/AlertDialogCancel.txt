@@ -1,0 +1,4 @@
+AlertDialogCancel
+Wraps the control that will close the dialog. This should be distinguished
+    visually from the Action control.
+    

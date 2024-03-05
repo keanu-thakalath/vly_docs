@@ -1,0 +1,13 @@
+Props:
+name='stroke' type_=reflex.vars.Var[str] description=' The color of the line stroke.'
+name='stroke_width' type_=reflex.vars.Var[int] description=' The width of the line stroke.'
+name='fill' type_=reflex.vars.Var[str] description=' The color of the area fill.'
+name='type_' type_=reflex.vars.Var[typing.Literal['basis', 'basisClosed', 'basisOpen', 'bumpX', 'bumpY', 'bump', 'linear', 'linearClosed', 'natural', 'monotoneX', 'monotoneY', 'monotone', 'step', 'stepBefore', 'stepAfter']] description=" The interpolation type of area. And customized interpolation function can be set to type. 'basis' | 'basisClosed' | 'basisOpen' | 'bumpX' | 'bumpY' | 'bump' | 'linear' | 'linearClosed' | 'natural' | 'monotoneX' | 'monotoneY' | 'monotone' | 'step' | 'stepBefore' | 'stepAfter' |"
+name='dot' type_=reflex.vars.Var[bool] description=' If false set, dots will not be drawn. If true set, dots will be drawn which have the props calculated internally.'
+name='active_dot' type_=reflex.vars.Var[bool] description=' The dot is shown when user enter an area chart and this chart has tooltip. If false set, no active dot will not be drawn. If true set, active dot will be drawn which have the props calculated internally.'
+name='label' type_=reflex.vars.Var[bool] description=' If false set, labels will not be drawn. If true set, labels will be drawn which have the props calculated internally.'
+name='stack_id' type_=reflex.vars.Var[str] description=' The stack id of area, when two areas have the same value axis and same stackId, then the two areas area stacked in order.'
+name='layout' type_=reflex.vars.Var[typing.Literal['horizontal', 'vertical']] description=" The layout of bar in the chart, usually inherited from parent. 'horizontal' | 'vertical'"
+name='data_key' type_=reflex.vars.Var[typing.Union[str, int]] description=' The key of a group of data which should be unique in an area chart.'
+name='x_axis_id' type_=reflex.vars.Var[typing.Union[str, int]] description=' The id of x-axis which is corresponding to the data.'
+name='y_axis_id' type_=reflex.vars.Var[typing.Union[str, int]] description=' The id of y-axis which is corresponding to the data.'

@@ -1,0 +1,2 @@
+TabsTrigger
+The button that activates its associated content.

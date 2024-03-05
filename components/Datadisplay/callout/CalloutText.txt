@@ -1,0 +1,2 @@
+CalloutText
+Renders the callout text. This component is based on the p element.

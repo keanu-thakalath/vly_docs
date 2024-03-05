@@ -1,0 +1,9 @@
+Props:
+name='separator' type_=reflex.vars.Var[str] description=' The separator between name and value.'
+name='offset' type_=reflex.vars.Var[int] description=' The offset size of tooltip. Number'
+name='filter_null' type_=reflex.vars.Var[bool] description=" When an item of the payload has value null or undefined, this item won't be displayed."
+name='cursor' type_=reflex.vars.Var[bool] description=' If set false, no cursor will be drawn when tooltip is active.'
+name='view_box' type_=reflex.vars.Var[typing.Dict[str, typing.Any]] description=' The box of viewing area, which has the shape of {x: someVal, y: someVal, width: someVal, height: someVal}, usually calculated internally.'
+name='active' type_=reflex.vars.Var[bool] description=' If set true, the tooltip is displayed. If set false, the tooltip is hidden, usually calculated internally.'
+name='position' type_=reflex.vars.Var[typing.Dict[str, typing.Any]] description=' If this field is set, the tooltip position will be fixed and will not move anymore.'
+name='coordinate' type_=reflex.vars.Var[typing.Dict[str, typing.Any]] description=' The coordinate of tooltip which is usually calculated internally.'

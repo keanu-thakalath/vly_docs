@@ -1,0 +1,2 @@
+DialogTrigger
+Trigger an action or event, to open a Dialog modal.

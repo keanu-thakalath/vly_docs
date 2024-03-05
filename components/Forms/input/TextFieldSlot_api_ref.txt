@@ -1,0 +1,2 @@
+Props:
+name='color_scheme' type_=reflex.vars.Var[typing.Literal['tomato', 'red', 'ruby', 'crimson', 'pink', 'plum', 'purple', 'violet', 'iris', 'indigo', 'blue', 'cyan', 'teal', 'jade', 'green', 'grass', 'brown', 'orange', 'sky', 'mint', 'lime', 'yellow', 'amber', 'gold', 'bronze', 'gray']] description=' Override theme color for text field slot'

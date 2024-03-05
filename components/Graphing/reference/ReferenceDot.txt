@@ -1,0 +1,2 @@
+ReferenceDot
+A ReferenceDot component in Recharts.

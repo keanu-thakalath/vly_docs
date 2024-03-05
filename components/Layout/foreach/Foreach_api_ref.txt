@@ -1,0 +1,4 @@
+Props:
+name='iterable' type_=reflex.vars.Var[typing.Iterable] description=' The iterable to create components from.'
+name='render_fn' type_=typing.Callable description=' A function from the render args to the component.'
+name='theme' type_=<class 'reflex.components.component.Component'> description=' The theme if set.'

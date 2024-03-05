@@ -1,0 +1,2 @@
+DialogClose
+Close button component to close an open Dialog modal.

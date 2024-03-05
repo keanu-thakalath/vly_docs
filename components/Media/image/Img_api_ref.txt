@@ -1,0 +1,13 @@
+Props:
+name='align' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Image alignment with respect to its surrounding elements'
+name='alt' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Alternative text for the image'
+name='cross_origin' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Configures the CORS requests for the image'
+name='decoding' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' How the image should be decoded'
+name='intrinsicsize' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Specifies an intrinsic size for the image'
+name='ismap' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Whether the image is a server-side image map'
+name='loading' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Specifies the loading behavior of the image'
+name='referrer_policy' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Referrer policy for the image'
+name='sizes' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Sizes of the image for different layouts'
+name='src' type_=reflex.vars.Var[typing.Any] description=' URL of the image to display'
+name='src_set' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' A set of source sizes and URLs for responsive images'
+name='use_map' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' The name of the map to use with the image'

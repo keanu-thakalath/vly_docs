@@ -1,0 +1,13 @@
+Props:
+name='items' type_=reflex.vars.Var[typing.List[str]] description=' The items of the radio group.'
+name='direction' type_=reflex.vars.Var[typing.Literal['row', 'column', 'row-reverse', 'column-reverse']] description=' The direction of the radio group.'
+name='spacing' type_=reflex.vars.Var[typing.Literal['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']] description=' The gap between the items of the radio group.'
+name='size' type_=reflex.vars.Var[typing.Literal['1', '2', '3']] description=' The size of the radio group.'
+name='variant' type_=reflex.vars.Var[typing.Literal['classic', 'surface', 'soft']] description=' The variant of the radio group'
+name='color_scheme' type_=reflex.vars.Var[typing.Literal['tomato', 'red', 'ruby', 'crimson', 'pink', 'plum', 'purple', 'violet', 'iris', 'indigo', 'blue', 'cyan', 'teal', 'jade', 'green', 'grass', 'brown', 'orange', 'sky', 'mint', 'lime', 'yellow', 'amber', 'gold', 'bronze', 'gray']] description=' The color of the radio group'
+name='high_contrast' type_=reflex.vars.Var[bool] description=' Whether to render the radio group with higher contrast color against background'
+name='value' type_=reflex.vars.Var[str] description=' The controlled value of the radio item to check. Should be used in conjunction with on_change.'
+name='default_value' type_=reflex.vars.Var[str] description=' The initial value of checked radio item. Should be used in conjunction with on_change.'
+name='disabled' type_=reflex.vars.Var[bool] description=' Whether the radio group is disabled'
+name='name' type_=reflex.vars.Var[str] description=' The name of the group. Submitted with its owning form as part of a name/value pair.'
+name='required' type_=reflex.vars.Var[bool] description=' Whether the radio group is required'

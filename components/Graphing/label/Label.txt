@@ -1,0 +1,2 @@
+Label
+A Label component in Recharts.

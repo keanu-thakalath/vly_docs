@@ -1,0 +1,2 @@
+CartesianAxis
+A CartesianAxis component in Recharts.

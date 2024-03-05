@@ -1,0 +1,2 @@
+LineChart
+A Line chart component in Recharts.

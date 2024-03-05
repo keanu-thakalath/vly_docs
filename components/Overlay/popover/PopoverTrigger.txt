@@ -1,0 +1,2 @@
+PopoverTrigger
+Wraps the control that will open the popover.

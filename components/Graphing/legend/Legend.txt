@@ -1,0 +1,2 @@
+Legend
+A Legend component in Recharts.

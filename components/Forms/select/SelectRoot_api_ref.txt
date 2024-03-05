@@ -1,0 +1,13 @@
+Props:
+name='size' type_=reflex.vars.Var[typing.Literal['1', '2', '3']] description=' The size of the select: "1" | "2" | "3"'
+name='default_value' type_=reflex.vars.Var[str] description=' The value of the select when initially rendered. Use when you do not need to control the state of the select.'
+name='value' type_=reflex.vars.Var[str] description=' The controlled value of the select. Should be used in conjunction with on_change.'
+name='default_open' type_=reflex.vars.Var[bool] description=' The open state of the select when it is initially rendered. Use when you do not need to control its open state.'
+name='open' type_=reflex.vars.Var[bool] description=' The controlled open state of the select. Must be used in conjunction with on_open_change.'
+name='name' type_=reflex.vars.Var[str] description=' The name of the select control when submitting the form.'
+name='disabled' type_=reflex.vars.Var[bool] description=' When True, prevents the user from interacting with select.'
+name='required' type_=reflex.vars.Var[bool] description=' When True, indicates that the user must select a value before the owning form can be submitted.'
+
+Events:
+('on_open_change', {'description': 'The on_open_change event handler is called when the open state of the component changes.'})
+('on_change', {'description': 'The on_change event handler is called when the value or checked state of the component changes.'})

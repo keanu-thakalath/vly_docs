@@ -1,0 +1,10 @@
+Props:
+name='side' type_=reflex.vars.Var[typing.Literal['x', 'y', 'top', 'bottom', 'right', 'left']] description=' The side'
+name='clip' type_=reflex.vars.Var[typing.Literal['border-box', 'padding-box']] description=' How to clip the element\'s content: "border-box" | "padding-box"'
+name='p' type_=reflex.vars.Var[typing.Union[int, str]] description=' Padding'
+name='px' type_=reflex.vars.Var[typing.Union[int, str]] description=' Padding on the x axis'
+name='py' type_=reflex.vars.Var[typing.Union[int, str]] description=' Padding on the y axis'
+name='pt' type_=reflex.vars.Var[typing.Union[int, str]] description=' Padding on the top'
+name='pr' type_=reflex.vars.Var[typing.Union[int, str]] description=' Padding on the right'
+name='pb' type_=reflex.vars.Var[typing.Union[int, str]] description=' Padding on the bottom'
+name='pl' type_=reflex.vars.Var[typing.Union[int, str]] description=' Padding on the left'

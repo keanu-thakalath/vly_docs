@@ -1,0 +1,8 @@
+Props:
+name='default_open' type_=reflex.vars.Var[bool] description=' The open state of the hover card when it is initially rendered. Use when you do not need to control its open state.'
+name='open' type_=reflex.vars.Var[bool] description=' The controlled open state of the hover card. Must be used in conjunction with onOpenChange.'
+name='open_delay' type_=reflex.vars.Var[int] description=' The duration from when the mouse enters the trigger until the hover card opens.'
+name='close_delay' type_=reflex.vars.Var[int] description=' The duration from when the mouse leaves the trigger until the hover card closes.'
+
+Events:
+('on_open_change', {'description': 'The on_open_change event handler is called when the open state of the component changes.'})

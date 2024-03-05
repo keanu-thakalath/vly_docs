@@ -1,0 +1,2 @@
+PieChart
+A Pie chart component in Recharts.

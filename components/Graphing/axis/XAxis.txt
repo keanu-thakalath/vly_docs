@@ -1,0 +1,2 @@
+XAxis
+An XAxis component in Recharts.

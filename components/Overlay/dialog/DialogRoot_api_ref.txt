@@ -1,0 +1,5 @@
+Props:
+name='open' type_=reflex.vars.Var[bool] description=' The controlled open state of the dialog.'
+
+Events:
+('on_open_change', {'description': 'The on_open_change event handler is called when the open state of the component changes.'})

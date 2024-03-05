@@ -1,0 +1,2 @@
+Props:
+name='size' type_=reflex.vars.Var[typing.Literal['1', '2']] description=' Tabs size "1" - "2"'

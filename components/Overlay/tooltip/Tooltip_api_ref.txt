@@ -1,0 +1,22 @@
+Props:
+name='content' type_=reflex.vars.Var[str] description=' The content of the tooltip.'
+name='default_open' type_=reflex.vars.Var[bool] description=' The open state of the tooltip when it is initially rendered. Use when you do not need to control its open state.'
+name='open' type_=reflex.vars.Var[bool] description=' The controlled open state of the tooltip. Must be used in conjunction with `on_open_change`.'
+name='side' type_=reflex.vars.Var[typing.Literal['top', 'right', 'bottom', 'left']] description=' The preferred side of the trigger to render against when open. Will be reversed when collisions occur and `avoid_collisions` is enabled.The position of the tooltip. Defaults to "top".'
+name='side_offset' type_=reflex.vars.Var[typing.Union[float, int]] description=' The distance in pixels from the trigger. Defaults to 0.'
+name='align' type_=reflex.vars.Var[typing.Literal['start', 'center', 'end']] description=' The preferred alignment against the trigger. May change when collisions occur. Defaults to "center".'
+name='align_offset' type_=reflex.vars.Var[typing.Union[float, int]] description=' An offset in pixels from the "start" or "end" alignment options.'
+name='avoid_collisions' type_=reflex.vars.Var[bool] description=' When true, overrides the side and align preferences to prevent collisions with boundary edges. Defaults to True.'
+name='collision_padding' type_=reflex.vars.Var[typing.Union[float, int, typing.Dict[str, typing.Union[float, int]]]] description=' The distance in pixels from the boundary edges where collision detection should occur. Accepts a number (same for all sides), or a partial padding object, for example: { "top": 20, "left": 20 }. Defaults to 0.'
+name='arrow_padding' type_=reflex.vars.Var[typing.Union[float, int]] description=' The padding between the arrow and the edges of the content. If your content has border-radius, this will prevent it from overflowing the corners. Defaults to 0.'
+name='sticky' type_=reflex.vars.Var[typing.Literal['partial', 'always']] description=' The sticky behavior on the align axis. "partial" will keep the content in the boundary as long as the trigger is at least partially in the boundary whilst "always" will keep the content in the boundary regardless. Defaults to "partial".'
+name='hide_when_detached' type_=reflex.vars.Var[bool] description=' Whether to hide the content when the trigger becomes fully occluded. Defaults to False.'
+name='delay_duration' type_=reflex.vars.Var[typing.Union[float, int]] description=' Override the duration in milliseconds to customize the open delay for a specific tooltip. Default is 700.'
+name='disable_hoverable_content' type_=reflex.vars.Var[bool] description=' Prevents Tooltip content from remaining open when hovering.'
+name='force_mount' type_=reflex.vars.Var[bool] description=' Used to force mounting when more control is needed. Useful when controlling animation with React animation libraries.'
+name='aria_label' type_=reflex.vars.Var[str] description=' By default, screenreaders will announce the content inside the component. If this is not descriptive enough, or you have content that cannot be announced, use aria-label as a more descriptive label.'
+
+Events:
+('on_open_change', {'description': 'The on_open_change event handler is called when the open state of the component changes.'})
+('on_escape_key_down', {'description': 'The on_escape_key_down event handler is called when the escape key is down. It can be prevented by calling event.preventDefault.'})
+('on_pointer_down_outside', {'description': 'The on_pointer_down_outside event handler is called when a pointer event occurs outside the bounds of the component. It can be prevented by calling event.preventDefault.'})

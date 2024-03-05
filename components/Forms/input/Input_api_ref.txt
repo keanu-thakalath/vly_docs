@@ -1,0 +1,23 @@
+Props:
+name='size' type_=reflex.vars.Var[typing.Literal['1', '2', '3']] description=' Text field size "1" - "3"'
+name='variant' type_=reflex.vars.Var[typing.Literal['classic', 'surface', 'soft']] description=' Variant of text field: "classic" | "surface" | "soft"'
+name='color_scheme' type_=reflex.vars.Var[typing.Literal['tomato', 'red', 'ruby', 'crimson', 'pink', 'plum', 'purple', 'violet', 'iris', 'indigo', 'blue', 'cyan', 'teal', 'jade', 'green', 'grass', 'brown', 'orange', 'sky', 'mint', 'lime', 'yellow', 'amber', 'gold', 'bronze', 'gray']] description=' Override theme color for text field'
+name='radius' type_=reflex.vars.Var[typing.Literal['none', 'small', 'medium', 'large', 'full']] description=' Override theme radius for text field: "none" | "small" | "medium" | "large" | "full"'
+name='auto_complete' type_=reflex.vars.Var[bool] description=' Whether the input should have autocomplete enabled'
+name='default_value' type_=reflex.vars.Var[str] description=' The value of the input when initially rendered.'
+name='disabled' type_=reflex.vars.Var[bool] description=' Disables the input'
+name='max_length' type_=reflex.vars.Var[str] description=' Specifies the maximum number of characters allowed in the input'
+name='min_length' type_=reflex.vars.Var[str] description=' Specifies the minimum number of characters required in the input'
+name='name' type_=reflex.vars.Var[str] description=' Name of the input, used when sending form data'
+name='placeholder' type_=reflex.vars.Var[str] description=' Placeholder text in the input'
+name='read_only' type_=reflex.vars.Var[bool] description=' Indicates whether the input is read-only'
+name='required' type_=reflex.vars.Var[bool] description=' Indicates that the input is required'
+name='type' type_=reflex.vars.Var[str] description=' Specifies the type of input'
+name='value' type_=reflex.vars.Var[str] description=' Value of the input'
+
+Events:
+('on_focus', {'description': 'Function or event handler called when the element (or some element inside of it) receives focus. For example, it is called when the user clicks on a text input.'})
+('on_blur', {'description': 'Function or event handler called when focus has left the element (or left some element inside of it). For example, it is called when the user clicks outside of a focused text input.'})
+('on_change', {'description': 'The on_change event handler is called when the value or checked state of the component changes.'})
+('on_key_down', {'description': 'The on_key_down event handler is called when the user presses a key.'})
+('on_key_up', {'description': 'The on_key_up event handler is called when the user releases a key.'})

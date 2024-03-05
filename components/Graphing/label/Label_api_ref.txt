@@ -1,0 +1,5 @@
+Props:
+name='view_box' type_=reflex.vars.Var[typing.Dict[str, typing.Any]] description=' The box of viewing area, which has the shape of {x: someVal, y: someVal, width: someVal, height: someVal}, usually calculated internally.'
+name='value' type_=reflex.vars.Var[str] description=' The value of label, which can be specified by this props or the children of <Label />'
+name='offset' type_=reflex.vars.Var[int] description=' The offset of label which can be specified by this props or the children of <Label />'
+name='position' type_=reflex.vars.Var[typing.Literal['top', 'left', 'right', 'bottom', 'inside', 'outside', 'insideLeft', 'insideRight', 'insideTop', 'insideBottom', 'insideTopLeft', 'insideBottomLeft', 'insideTopRight', 'insideBottomRight', 'insideStart', 'insideEnd', 'end', 'center']] description=' The position of label which can be specified by this props or the children of <Label />'

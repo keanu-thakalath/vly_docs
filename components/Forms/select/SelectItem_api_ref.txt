@@ -1,0 +1,3 @@
+Props:
+name='value' type_=reflex.vars.Var[str] description=' The value given as data when submitting a form with a name.'
+name='disabled' type_=reflex.vars.Var[bool] description=' Whether the select item is disabled'

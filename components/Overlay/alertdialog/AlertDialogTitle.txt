@@ -1,0 +1,5 @@
+AlertDialogTitle
+An accessible title that is announced when the dialog is opened.
+    This part is based on the Heading component with a pre-defined font size and
+    leading trim on top.
+    

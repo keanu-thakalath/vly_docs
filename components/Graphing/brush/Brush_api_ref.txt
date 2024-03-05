@@ -1,0 +1,15 @@
+Props:
+name='stroke' type_=reflex.vars.Var[str] description=' Stroke color'
+name='data_key' type_=reflex.vars.Var[typing.Union[str, int]] description=' The key of data displayed in the axis.'
+name='x' type_=reflex.vars.Var[int] description=' The x-coordinate of brush.'
+name='y' type_=reflex.vars.Var[int] description=' The y-coordinate of brush.'
+name='width' type_=reflex.vars.Var[int] description=' The width of brush.'
+name='height' type_=reflex.vars.Var[int] description=' The height of brush.'
+name='data' type_=reflex.vars.Var[typing.List[typing.Any]] description=' The data domain of brush, [min, max].'
+name='traveller_width' type_=reflex.vars.Var[int] description=' The width of each traveller.'
+name='gap' type_=reflex.vars.Var[int] description=' The data with gap of refreshing chart. If the option is not set, the chart will be refreshed every time'
+name='start_index' type_=reflex.vars.Var[int] description=' The default start index of brush. If the option is not set, the start index will be 0.'
+name='end_index' type_=reflex.vars.Var[int] description=' The default end index of brush. If the option is not set, the end index will be 1.'
+
+Events:
+('on_change', {'description': 'The on_change event handler is called when the value or checked state of the component changes.'})

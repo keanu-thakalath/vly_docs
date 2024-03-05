@@ -1,0 +1,8 @@
+Props:
+name='has_background' type_=reflex.vars.Var[bool] description=' Whether to apply the themes background color to the theme node. Defaults to True.'
+name='appearance' type_=reflex.vars.Var[typing.Literal['inherit', 'light', 'dark']] description=' Override light or dark mode theme: "inherit" | "light" | "dark". Defaults to "inherit".'
+name='accent_color' type_=reflex.vars.Var[typing.Literal['tomato', 'red', 'ruby', 'crimson', 'pink', 'plum', 'purple', 'violet', 'iris', 'indigo', 'blue', 'cyan', 'teal', 'jade', 'green', 'grass', 'brown', 'orange', 'sky', 'mint', 'lime', 'yellow', 'amber', 'gold', 'bronze', 'gray']] description=' The color used for default buttons, typography, backgrounds, etc'
+name='gray_color' type_=reflex.vars.Var[typing.Literal['gray', 'mauve', 'slate', 'sage', 'olive', 'sand', 'auto']] description=' The shade of gray, defaults to "auto".'
+name='panel_background' type_=reflex.vars.Var[typing.Literal['solid', 'translucent']] description=' Whether panel backgrounds are translucent: "solid" | "translucent" (default)'
+name='radius' type_=reflex.vars.Var[typing.Literal['none', 'small', 'medium', 'large', 'full']] description=' Element border radius: "none" | "small" | "medium" | "large" | "full". Defaults to "medium".'
+name='scaling' type_=reflex.vars.Var[typing.Literal['90%', '95%', '100%', '105%', '110%']] description=' Scale of all theme items: "90%" | "95%" | "100%" | "105%" | "110%". Defaults to "100%"'

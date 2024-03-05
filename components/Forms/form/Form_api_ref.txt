@@ -1,0 +1,8 @@
+Props:
+name='reset_on_submit' type_=reflex.vars.Var[bool] description=' If true, the form will be cleared after submit.'
+name='handle_submit_unique_name' type_=reflex.vars.Var[str] description=" The name used to make this form's submit handler function unique."
+name='as_child' type_=reflex.vars.Var[bool] description=' Change the default rendered element for the one passed as a child.'
+
+Events:
+('on_submit', {'description': 'Function or event handler called when the user submits a form. For example, it is called when the user clicks on a submit button.'})
+('on_clear_server_errors', {'description': 'The on_clear_server_errors event handler is called when the form is submitted or reset and the server errors need to be cleared.'})

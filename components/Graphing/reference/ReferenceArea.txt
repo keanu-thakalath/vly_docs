@@ -1,0 +1,2 @@
+ReferenceArea
+A ReferenceArea component in Recharts.

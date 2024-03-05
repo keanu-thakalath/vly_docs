@@ -1,0 +1,2 @@
+ComposedChart
+A Composed chart component in Recharts.

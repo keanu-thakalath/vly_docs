@@ -1,0 +1,6 @@
+Props:
+name='justify' type_=reflex.vars.Var[typing.Literal['start', 'center', 'end']] description=' The justification of the column'
+name='align' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Alignment of the content within the table cell'
+name='col_span' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Number of columns a cell should span'
+name='headers' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' IDs of the headers associated with this cell'
+name='row_span' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Number of rows a cell should span'

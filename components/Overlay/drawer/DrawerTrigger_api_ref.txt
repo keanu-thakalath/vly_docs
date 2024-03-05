@@ -1,0 +1,3 @@
+Props:
+name='as_child' type_=reflex.vars.Var[bool] description=' Defaults to true, if the first child acts as the trigger.'
+name='as_child' type_=reflex.vars.Var[bool] description=' Change the default rendered element for the one passed as a child.'

@@ -1,0 +1,2 @@
+Props:
+name='ratio' type_=reflex.vars.Var[typing.Union[float, int]] description=' The ratio of the width to the height of the element'

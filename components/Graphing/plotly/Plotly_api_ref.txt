@@ -1,0 +1,6 @@
+Props:
+name='data' type_=reflex.vars.Var[plotly.graph_objs._figure.Figure] description=' The figure to display. This can be a plotly figure or a plotly data json.'
+name='layout' type_=reflex.vars.Var[typing.Dict] description=' The layout of the graph.'
+name='width' type_=reflex.vars.Var[str] description=' The width of the graph.'
+name='height' type_=reflex.vars.Var[str] description=' The height of the graph.'
+name='use_resize_handler' type_=reflex.vars.Var[bool] description=' If true, the graph will resize when the window is resized.'

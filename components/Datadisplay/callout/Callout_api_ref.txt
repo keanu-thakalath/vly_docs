@@ -1,0 +1,8 @@
+Props:
+name='text' type_=reflex.vars.Var[str] description=' The text of the callout.'
+name='icon' type_=reflex.vars.Var[str] description=' The icon of the callout.'
+name='as_child' type_=reflex.vars.Var[bool] description=' Change the default rendered element for the one passed as a child, merging their props and behavior.'
+name='size' type_=reflex.vars.Var[typing.Literal['1', '2', '3']] description=' Size "1" - "3"'
+name='variant' type_=reflex.vars.Var[typing.Literal['soft', 'surface', 'outline']] description=' Variant of button: "soft" | "surface" | "outline"'
+name='color_scheme' type_=reflex.vars.Var[typing.Literal['tomato', 'red', 'ruby', 'crimson', 'pink', 'plum', 'purple', 'violet', 'iris', 'indigo', 'blue', 'cyan', 'teal', 'jade', 'green', 'grass', 'brown', 'orange', 'sky', 'mint', 'lime', 'yellow', 'amber', 'gold', 'bronze', 'gray']] description=' Override theme color for button'
+name='high_contrast' type_=reflex.vars.Var[bool] description=' Whether to render the button with higher contrast color against background'

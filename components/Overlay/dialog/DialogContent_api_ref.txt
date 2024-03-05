@@ -1,0 +1,9 @@
+Props:
+name='size' type_=reflex.vars.Var[typing.Literal['1', '2', '3', '4']] description=' DialogContent size "1" - "4"'
+
+Events:
+('on_open_auto_focus', {'description': 'The on_open_auto_focus event handler is called when the component opens and the focus is returned to the first item.'})
+('on_close_auto_focus', {'description': 'The on_close_auto_focus event handler is called when focus moves to the trigger after closing. It can be prevented by calling event.preventDefault.'})
+('on_escape_key_down', {'description': 'The on_escape_key_down event handler is called when the escape key is down. It can be prevented by calling event.preventDefault.'})
+('on_pointer_down_outside', {'description': 'The on_pointer_down_outside event handler is called when a pointer event occurs outside the bounds of the component. It can be prevented by calling event.preventDefault.'})
+('on_interact_outside', {'description': 'The on_interact_outside event handler is called when the user interacts outside the component.'})

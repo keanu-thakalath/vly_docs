@@ -1,0 +1,19 @@
+Props:
+name='as_child' type_=reflex.vars.Var[bool] description=' Change the default rendered element for the one passed as a child, merging their props and behavior.'
+name='size' type_=reflex.vars.Var[typing.Literal['1', '2', '3']] description=' Button size "1" - "3"'
+name='variant' type_=reflex.vars.Var[typing.Literal['classic', 'surface', 'soft']] description=' Variant of button'
+name='color_scheme' type_=reflex.vars.Var[typing.Literal['tomato', 'red', 'ruby', 'crimson', 'pink', 'plum', 'purple', 'violet', 'iris', 'indigo', 'blue', 'cyan', 'teal', 'jade', 'green', 'grass', 'brown', 'orange', 'sky', 'mint', 'lime', 'yellow', 'amber', 'gold', 'bronze', 'gray']] description=' Override theme color for button'
+name='high_contrast' type_=reflex.vars.Var[bool] description=' Whether to render the button with higher contrast color against background'
+name='radius' type_=reflex.vars.Var[typing.Literal['none', 'small', 'full']] description=' Override theme radius for button: "none" | "small" | "full"'
+name='default_value' type_=reflex.vars.Var[typing.Union[typing.List[typing.Union[float, int]], float, int]] description=' The value of the slider when initially rendered. Use when you do not need to control the state of the slider.'
+name='value' type_=reflex.vars.Var[typing.List[typing.Union[float, int]]] description=' The controlled value of the slider. Must be used in conjunction with onValueChange.'
+name='name' type_=reflex.vars.Var[str] description=' The name of the slider. Submitted with its owning form as part of a name/value pair.'
+name='min' type_=reflex.vars.Var[typing.Union[float, int]] description=' The minimum value of the slider.'
+name='max' type_=reflex.vars.Var[typing.Union[float, int]] description=' The maximum value of the slider.'
+name='step' type_=reflex.vars.Var[typing.Union[float, int]] description=' The step value of the slider.'
+name='disabled' type_=reflex.vars.Var[bool] description=' Whether the slider is disabled'
+name='orientation' type_=reflex.vars.Var[typing.Literal['horizontal', 'vertical']] description=' The orientation of the slider.'
+
+Events:
+('on_change', {'description': 'The on_change event handler is called when the value or checked state of the component changes.'})
+('on_value_commit', {'description': 'The on_value_commit event handler is called when the value changes at the end of an interaction. Useful when you only need to capture a final value e.g. to update a backend service.'})

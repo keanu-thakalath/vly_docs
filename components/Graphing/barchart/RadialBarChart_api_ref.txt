@@ -1,0 +1,18 @@
+Props:
+name='cx' type_=reflex.vars.Var[typing.Union[int, str]] description=' The The x-coordinate of center. If set a percentage, the final value is obtained by multiplying the percentage of width. Number | Percentage'
+name='cy' type_=reflex.vars.Var[typing.Union[int, str]] description=' The The y-coordinate of center. If set a percentage, the final value is obtained by multiplying the percentage of height. Number | Percentage'
+name='start_angle' type_=reflex.vars.Var[int] description=' The angle of first radial direction line.'
+name='end_angle' type_=reflex.vars.Var[int] description=" The angle of last point in the circle which should be startAngle - 360 or startAngle + 360. We'll calculate the direction of chart by 'startAngle' and 'endAngle'."
+name='inner_radius' type_=reflex.vars.Var[typing.Union[int, str]] description=' The inner radius of first circle grid. If set a percentage, the final value is obtained by multiplying the percentage of maxRadius which is calculated by the width, height, cx, cy. Number | Percentage'
+name='outer_radius' type_=reflex.vars.Var[typing.Union[int, str]] description=' The outer radius of last circle grid. If set a percentage, the final value is obtained by multiplying the percentage of maxRadius which is calculated by the width, height, cx, cy. Number | Percentage'
+name='bar_category_gap' type_=reflex.vars.Var[typing.Union[int, str]] description=' The gap between two bar categories, which can be a percent value or a fixed value. Percentage | Number'
+name='bar_gap' type_=reflex.vars.Var[str] description=' The gap between two bars in the same category, which can be a percent value or a fixed value. Percentage | Number'
+name='bar_size' type_=reflex.vars.Var[int] description=' The size of each bar. If the barSize is not specified, the size of bar will be calculated by the barCategoryGap, barGap and the quantity of bar groups.'
+name='data' type_=reflex.vars.Var[typing.List[typing.Dict[str, typing.Any]]] description=' The source data, in which each element is an object.'
+name='sync_id' type_=reflex.vars.Var[str] description=' If any two categorical charts(rx.line_chart, rx.area_chart, rx.bar_chart, rx.composed_chart) have the same sync_id, these two charts can sync the position GraphingTooltip, and the start_index, end_index of Brush.'
+name='sync_method' type_=reflex.vars.Var[typing.Literal['index', 'value']] description=" When sync_id is provided, allows customisation of how the charts will synchronize GraphingTooltips and brushes. Using 'index' (default setting), other charts will reuse current datum's index within the data array. In cases where data does not have the same length, this might yield unexpected results. In that case use 'value' which will try to match other charts values, or a fully custom function which will receive tick, data as argument and should return an index. 'index' | 'value' | function"
+name='width' type_=reflex.vars.Var[typing.Union[str, int]] description=' The width of chart container. String or Integer'
+name='height' type_=reflex.vars.Var[typing.Union[str, int]] description=' The height of chart container.'
+name='layout' type_=reflex.vars.Var[typing.Literal['horizontal', 'vertical']] description=" The layout of area in the chart. 'horizontal' | 'vertical'"
+name='margin' type_=reflex.vars.Var[typing.Dict[str, typing.Any]] description=' The sizes of whitespace around the chart.'
+name='stack_offset' type_=reflex.vars.Var[typing.Literal['expand', 'none', 'wiggle', 'silhouette']] description=" The type of offset function used to generate the lower and upper values in the series array. The four types are built-in offsets in d3-shape. 'expand' | 'none' | 'wiggle' | 'silhouette'"

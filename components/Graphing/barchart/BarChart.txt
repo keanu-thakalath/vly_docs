@@ -1,0 +1,2 @@
+BarChart
+A Bar chart component in Recharts.

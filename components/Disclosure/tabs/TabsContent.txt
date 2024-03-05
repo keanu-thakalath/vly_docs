@@ -1,0 +1,2 @@
+TabsContent
+Contains the content associated with each trigger.

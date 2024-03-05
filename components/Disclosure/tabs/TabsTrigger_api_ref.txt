@@ -1,0 +1,3 @@
+Props:
+name='value' type_=reflex.vars.Var[str] description=' The value of the tab. Must be unique for each tab.'
+name='disabled' type_=reflex.vars.Var[bool] description=' Whether the tab is disabled'

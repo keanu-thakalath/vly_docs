@@ -1,0 +1,2 @@
+SelectSeparator
+Used to visually separate items in the Select.

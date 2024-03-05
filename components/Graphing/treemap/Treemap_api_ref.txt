@@ -1,0 +1,10 @@
+Props:
+name='width' type_=reflex.vars.Var[typing.Union[str, int]] description=' The width of chart container. String or Integer'
+name='height' type_=reflex.vars.Var[typing.Union[str, int]] description=' The height of chart container.'
+name='data' type_=reflex.vars.Var[typing.List[typing.Dict[str, typing.Any]]] description=' data of treemap. Array'
+name='data_key' type_=reflex.vars.Var[typing.Union[str, int]] description=' The key of a group of data which should be unique in a treemap. String | Number | Function'
+name='aspect_ratio' type_=reflex.vars.Var[int] description=" The treemap will try to keep every single rectangle's aspect ratio near the aspectRatio given. Number"
+name='is_animation_active' type_=reflex.vars.Var[bool] description=' If set false, animation of area will be disabled.'
+name='animation_begin' type_=reflex.vars.Var[int] description=' Specifies when the animation should begin, the unit of this option is ms.'
+name='animation_duration' type_=reflex.vars.Var[int] description=' Specifies the duration of animation, the unit of this option is ms.'
+name='animation_easing' type_=reflex.vars.Var[typing.Literal['ease', 'ease-in', 'ease-out', 'ease-in-out', 'linear']] description=" The type of easing function. 'ease' | 'ease-in' | 'ease-out' | 'ease-in-out' | 'linear'"

@@ -1,0 +1,5 @@
+Props:
+name='size' type_=reflex.vars.Var[typing.Literal['1', '2', '3']] description=' The size of the table: "1" | "2" | "3"'
+name='variant' type_=reflex.vars.Var[typing.Literal['surface', 'ghost']] description=' The variant of the table'
+name='align' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Alignment of the table'
+name='summary' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=" Provides a summary of the table's purpose and structure"

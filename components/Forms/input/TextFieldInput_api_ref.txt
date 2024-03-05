@@ -1,0 +1,39 @@
+Props:
+name='accept' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Accepted types of files when the input is file type'
+name='alt' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Alternate text for input type="image"'
+name='auto_complete' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Whether the input should have autocomplete enabled'
+name='auto_focus' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Automatically focuses the input when the page loads'
+name='capture' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Captures media from the user (camera or microphone)'
+name='checked' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Indicates whether the input is checked (for checkboxes and radio buttons)'
+name='dirname' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=" Name part of the input to submit in 'dir' and 'name' pair when form is submitted"
+name='disabled' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Disables the input'
+name='form' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Associates the input with a form (by id)'
+name='form_action' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' URL to send the form data to (for type="submit" buttons)'
+name='form_enc_type' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' How the form data should be encoded when submitting to the server (for type="submit" buttons)'
+name='form_method' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' HTTP method to use for sending form data (for type="submit" buttons)'
+name='form_no_validate' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Bypasses form validation when submitting (for type="submit" buttons)'
+name='form_target' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Specifies where to display the response after submitting the form (for type="submit" buttons)'
+name='list' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' References a datalist for suggested options'
+name='max' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Specifies the maximum value for the input'
+name='max_length' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Specifies the maximum number of characters allowed in the input'
+name='min_length' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Specifies the minimum number of characters required in the input'
+name='min' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Specifies the minimum value for the input'
+name='multiple' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Indicates whether multiple values can be entered in an input of the type email or file'
+name='name' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Name of the input, used when sending form data'
+name='pattern' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=" Regex pattern the input's value must match to be valid"
+name='placeholder' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Placeholder text in the input'
+name='read_only' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Indicates whether the input is read-only'
+name='required' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Indicates that the input is required'
+name='size' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Specifies the visible width of a text control'
+name='src' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' URL for image inputs'
+name='step' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Specifies the legal number intervals for an input'
+name='type' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Specifies the type of input'
+name='use_map' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Name of the image map used with the input'
+name='value' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Value of the input'
+
+Events:
+('on_focus', {'description': 'Function or event handler called when the element (or some element inside of it) receives focus. For example, it is called when the user clicks on a text input.'})
+('on_blur', {'description': 'Function or event handler called when focus has left the element (or left some element inside of it). For example, it is called when the user clicks outside of a focused text input.'})
+('on_change', {'description': 'The on_change event handler is called when the value or checked state of the component changes.'})
+('on_key_down', {'description': 'The on_key_down event handler is called when the user presses a key.'})
+('on_key_up', {'description': 'The on_key_up event handler is called when the user releases a key.'})

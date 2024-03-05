@@ -1,0 +1,2 @@
+Callout
+A short message to attract user's attention.

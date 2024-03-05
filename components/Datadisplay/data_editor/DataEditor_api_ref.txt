@@ -1,0 +1,48 @@
+Props:
+name='rows' type_=reflex.vars.Var[int] description=' Number of rows.'
+name='columns' type_=reflex.vars.Var[typing.List[typing.Dict[str, typing.Any]]] description=' Headers of the columns for the data grid.'
+name='data' type_=reflex.vars.Var[typing.List[typing.List[typing.Any]]] description=' The data.'
+name='get_cell_content' type_=reflex.vars.Var[str] description=' The name of the callback used to find the data to display.'
+name='get_cell_for_selection' type_=reflex.vars.Var[bool] description=' Allow selection for copying.'
+name='on_paste' type_=reflex.vars.Var[bool] description=' Allow paste.'
+name='draw_focus_ring' type_=reflex.vars.Var[bool] description=' Controls the drawing of the focus ring.'
+name='fixed_shadow_x' type_=reflex.vars.Var[bool] description=' Enables or disables the overlay shadow when scrolling horizontally.'
+name='fixed_shadow_y' type_=reflex.vars.Var[bool] description=' Enables or disables the overlay shadow when scrolling vertically.'
+name='freeze_columns' type_=reflex.vars.Var[int] description=" The number of columns which should remain in place when scrolling horizontally. Doesn't include rowMarkers."
+name='group_header_height' type_=reflex.vars.Var[int] description=' Controls the header of the group header row.'
+name='header_height' type_=reflex.vars.Var[int] description=' Controls the height of the header row.'
+name='max_column_auto_width' type_=reflex.vars.Var[int] description=' Additional header icons: header_icons: Var[Any] # (TODO: must be a map of name: svg) The maximum width a column can be automatically sized to.'
+name='max_column_width' type_=reflex.vars.Var[int] description=' The maximum width a column can be resized to.'
+name='min_column_width' type_=reflex.vars.Var[int] description=' The minimum width a column can be resized to.'
+name='row_height' type_=reflex.vars.Var[int] description=' Determins the height of each row.'
+name='row_markers' type_=reflex.vars.Var[typing.Literal['none', 'number', 'checkbox', 'both', 'clickable-number']] description=' Kind of row markers.'
+name='row_marker_start_index' type_=reflex.vars.Var[int] description=' Changes the starting index for row markers.'
+name='row_marker_width' type_=reflex.vars.Var[int] description=' Sets the width of row markers in pixels, if unset row markers will automatically size.'
+name='smooth_scroll_x' type_=reflex.vars.Var[bool] description=' Enable horizontal smooth scrolling.'
+name='smooth_scroll_y' type_=reflex.vars.Var[bool] description=' Enable vertical smooth scrolling.'
+name='vertical_border' type_=reflex.vars.Var[bool] description=' Controls the drawing of the left hand vertical border of a column. If set to a boolean value it controls all borders.'
+name='column_select' type_=reflex.vars.Var[typing.Literal['none', 'single', 'multi']] description=' Allow columns selections. ("none", "single", "multi")'
+name='prevent_diagonal_scrolling' type_=reflex.vars.Var[bool] description=' Prevent diagonal scrolling.'
+name='overscroll_x' type_=reflex.vars.Var[int] description=' Allow to scroll past the limit of the actual content on the horizontal axis.'
+name='overscroll_y' type_=reflex.vars.Var[int] description=' Allow to scroll past the limit of the actual content on the vertical axis.'
+name='scroll_offset_x' type_=reflex.vars.Var[int] description=' Initial scroll offset on the horizontal axis.'
+name='scroll_offset_y' type_=reflex.vars.Var[int] description=' Initial scroll offset on the vertical axis.'
+name='theme' type_=reflex.vars.Var[typing.Union[reflex.components.datadisplay.dataeditor.DataEditorTheme, typing.Dict]] description=' global theme'
+
+Events:
+('on_cell_activated', {'description': 'The on_cell_activated event handler is called when the user activate a cell from the data editor. It receive the coordinates of the cell.'})
+('on_cell_clicked', {'description': 'The on_cell_clicked event handler is called when the user click on a cell of the data editor. It receive the coordinates of the cell.'})
+('on_cell_context_menu', {'description': 'The on_cell_context_menu event handler is called when the user right-click on a cell of the data editor. It receives the coordinates of the cell.'})
+('on_cell_edited', {'description': 'The on_cell_edited event handler is called when the user modify the content of a cell. It receives the coordinates of the cell and the modified content.'})
+('on_group_header_clicked', {'description': 'The on_group_header_clicked event handler is called when the user left-click on a group header of the data editor. It receive the index and the data of the group header.'})
+('on_group_header_context_menu', {'description': 'The on_group_header_context_menu event handler is called when the user right-click on a group header of the data editor. It receive the index and the data of the group header.'})
+('on_group_header_renamed', {'description': 'The on_group_header_context_menu event handler is called when the user rename a group header of the data editor. It receive the index and the modified content of the group header.'})
+('on_header_clicked', {'description': 'The on_header_clicked event handler is called when the user left-click a header of the data editor. It receive the index and the content of the header.'})
+('on_header_context_menu', {'description': 'The on_header_context_menu event handler is called when the user right-click a header of the data editor. It receives the index and the content of the header. '})
+('on_header_menu_click', {'description': 'The on_header_menu_click event handler is called when the user click on the menu button of the header. (menu header not implemented yet)'})
+('on_item_hovered', {'description': 'The on_item_hovered event handler is called when the user hover on an item of the data editor.'})
+('on_delete', {'description': 'The on_delete event handler is called when the user delete a cell of the data editor.'})
+('on_finished_editing', {'description': 'The on_finished_editing event handler is called when the user finish an editing, regardless of if the value changed or not.'})
+('on_row_appended', {'description': 'The on_row_appended event handler is called when the user add a row to the data editor.'})
+('on_selection_cleared', {'description': 'The on_selection_cleared event handler is called when the user unselect a region of the data editor.'})
+('on_column_resize', {'description': 'The on_column_resize event handler is called when the user try to resize a column from the data editor.'})

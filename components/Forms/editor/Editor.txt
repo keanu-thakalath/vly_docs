@@ -1,0 +1,5 @@
+Editor
+A Rich Text Editor component based on SunEditor.
+    Not every JS prop is listed here (some are not easily usable from python),
+    refer to the library docs for a complete list.
+    

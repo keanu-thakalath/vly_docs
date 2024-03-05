@@ -1,0 +1,4 @@
+Props:
+name='value' type_=reflex.vars.Var[str] description=' The value of the radio item to check. Should be used in conjunction with on_change.'
+name='disabled' type_=reflex.vars.Var[bool] description=' When true, prevents the user from interacting with the radio item.'
+name='required' type_=reflex.vars.Var[bool] description=' When true, indicates that the user must check the radio item before the owning form can be submitted.'

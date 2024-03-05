@@ -1,0 +1,2 @@
+TableHeader
+The header of the table defines column names and other non-data elements.

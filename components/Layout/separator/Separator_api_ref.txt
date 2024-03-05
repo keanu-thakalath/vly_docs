@@ -1,0 +1,5 @@
+Props:
+name='size' type_=reflex.vars.Var[typing.Literal['1', '2', '3', '4']] description=' The size of the select: "1" | "2" | "3" | "4"'
+name='color_scheme' type_=reflex.vars.Var[typing.Literal['tomato', 'red', 'ruby', 'crimson', 'pink', 'plum', 'purple', 'violet', 'iris', 'indigo', 'blue', 'cyan', 'teal', 'jade', 'green', 'grass', 'brown', 'orange', 'sky', 'mint', 'lime', 'yellow', 'amber', 'gold', 'bronze', 'gray']] description=' The color of the select'
+name='orientation' type_=reflex.vars.Var[typing.Literal['horizontal', 'vertical']] description=' The orientation of the separator.'
+name='decorative' type_=reflex.vars.Var[bool] description=' When true, signifies that it is purely visual, carries no semantic meaning, and ensures it is not present in the accessibility tree.'

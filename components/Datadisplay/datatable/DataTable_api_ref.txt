@@ -1,0 +1,7 @@
+Props:
+name='data' type_=typing.Any description=' The data to display. Either a list of lists or a pandas dataframe.'
+name='columns' type_=reflex.vars.Var[typing.List] description=' The list of columns to display. Required if data is a list and should not be provided if the data field is a dataframe'
+name='search' type_=reflex.vars.Var[bool] description=' Enable a search bar.'
+name='sort' type_=reflex.vars.Var[bool] description=' Enable sorting on columns.'
+name='resizable' type_=reflex.vars.Var[bool] description=' Enable resizable columns.'
+name='pagination' type_=reflex.vars.Var[typing.Union[bool, typing.Dict]] description=' Enable pagination.'

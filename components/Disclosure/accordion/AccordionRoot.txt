@@ -1,0 +1,2 @@
+AccordionRoot
+An accordion component.

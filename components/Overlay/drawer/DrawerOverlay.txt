@@ -1,0 +1,2 @@
+DrawerOverlay
+A layer that covers the inert portion of the view when the dialog is open.

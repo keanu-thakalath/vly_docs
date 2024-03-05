@@ -1,0 +1,6 @@
+Props:
+name='data_key' type_=reflex.vars.Var[typing.Union[str, int]] description=' The key of data displayed in the axis.'
+name='range' type_=reflex.vars.Var[typing.List[int]] description=' The range of axis.'
+name='unit' type_=reflex.vars.Var[typing.Union[str, int]] description=' The unit of data displayed in the axis. This option will be used to represent an index unit in a scatter chart.'
+name='name' type_=reflex.vars.Var[typing.Union[str, int]] description=' The name of data displayed in the axis. This option will be used to represent an index in a scatter chart.'
+name='scale' type_=reflex.vars.Var[typing.Literal['auto', 'linear', 'pow', 'sqrt', 'log', 'identity', 'time', 'band', 'point', 'ordinal', 'quantile', 'quantize', 'utc', 'sequential', 'threshold']] description=" If 'auto' set, the scale function is decided by the type of chart, and the props type."

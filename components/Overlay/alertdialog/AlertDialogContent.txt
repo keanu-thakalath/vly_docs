@@ -1,0 +1,2 @@
+AlertDialogContent
+Contains the content of the dialog. This component is based on the div element.

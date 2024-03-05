@@ -1,0 +1,4 @@
+Props:
+name='component_map' type_=typing.Dict[str, typing.Any] description=' The component map from a tag to a lambda that creates a component.'
+name='custom_styles' type_=typing.Dict[str, typing.Any] description=' Custom styles for the markdown (deprecated in v0.2.9).'
+name='component_map_hash' type_=<class 'str'> description=' The hash of the component map, generated at create() time.'

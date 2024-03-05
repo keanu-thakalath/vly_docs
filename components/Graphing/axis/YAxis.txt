@@ -1,0 +1,2 @@
+YAxis
+A YAxis component in Recharts.

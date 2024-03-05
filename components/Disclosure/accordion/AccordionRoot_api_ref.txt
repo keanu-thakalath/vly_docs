@@ -1,0 +1,14 @@
+Props:
+name='type' type_=reflex.vars.Var[typing.Literal['single', 'multiple']] description=' The type of accordion (single or multiple).'
+name='value' type_=reflex.vars.Var[typing.Union[str, typing.List[str], NoneType]] description=' The value of the item to expand.'
+name='default_value' type_=reflex.vars.Var[typing.Union[str, typing.List[str], NoneType]] description=' The default value of the item to expand.'
+name='collapsible' type_=reflex.vars.Var[bool] description=' Whether or not the accordion is collapsible.'
+name='disabled' type_=reflex.vars.Var[bool] description=' Whether or not the accordion is disabled.'
+name='dir' type_=reflex.vars.Var[typing.Literal['ltr', 'rtl']] description=' The reading direction of the accordion when applicable.'
+name='orientation' type_=reflex.vars.Var[typing.Literal['vertical', 'horizontal']] description=' The orientation of the accordion.'
+name='variant' type_=reflex.vars.Var[typing.Literal['classic', 'soft', 'surface', 'outline', 'ghost']] description=' The variant of the accordion.'
+name='color_scheme' type_=reflex.vars.Var[typing.Literal['tomato', 'red', 'ruby', 'crimson', 'pink', 'plum', 'purple', 'violet', 'iris', 'indigo', 'blue', 'cyan', 'teal', 'jade', 'green', 'grass', 'brown', 'orange', 'sky', 'mint', 'lime', 'yellow', 'amber', 'gold', 'bronze', 'gray']] description=' The color scheme of the accordion.'
+name='as_child' type_=reflex.vars.Var[bool] description=' Change the default rendered element for the one passed as a child.'
+
+Events:
+('on_value_change', {'description': 'The on_change event handler is called when the value state of the component changes.'})

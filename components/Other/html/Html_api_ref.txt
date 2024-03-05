@@ -1,0 +1,2 @@
+Props:
+name='dangerouslySetInnerHTML' type_=reflex.vars.Var[typing.Dict[str, str]] description=' The HTML to render.'

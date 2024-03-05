@@ -1,0 +1,5 @@
+Container
+Constrains the maximum width of page content.
+
+    See https://www.radix-ui.com/themes/docs/components/container
+    

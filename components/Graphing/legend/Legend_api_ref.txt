@@ -1,0 +1,11 @@
+Props:
+name='width' type_=reflex.vars.Var[int] description=' The width of legend container. Number'
+name='height' type_=reflex.vars.Var[int] description=' The height of legend container. Number'
+name='layout' type_=reflex.vars.Var[typing.Literal['horizontal', 'vertical']] description=" The layout of legend items. 'horizontal' | 'vertical'"
+name='align' type_=reflex.vars.Var[typing.Literal['left', 'center', 'right']] description=" The alignment of legend items in 'horizontal' direction, which can be 'left', 'center', 'right'."
+name='vertical_align' type_=reflex.vars.Var[typing.Literal['top', 'middle', 'bottom']] description=" The alignment of legend items in 'vertical' direction, which can be 'top', 'middle', 'bottom'."
+name='icon_size' type_=reflex.vars.Var[int] description=' The size of icon in each legend item.'
+name='icon_type' type_=reflex.vars.Var[typing.Literal['line', 'plainline', 'square', 'rect', 'circle', 'cross', 'diamond', 'star', 'triangle', 'wye']] description=" The type of icon in each legend item. 'line' | 'plainline' | 'square' | 'rect' | 'circle' | 'cross' | 'diamond' | 'star' | 'triangle' | 'wye'"
+name='chart_width' type_=reflex.vars.Var[int] description=' The width of chart container, usually calculated internally.'
+name='chart_height' type_=reflex.vars.Var[int] description=' The height of chart container, usually calculated internally.'
+name='margin' type_=reflex.vars.Var[typing.Dict[str, typing.Any]] description=' The margin of chart container, usually calculated internally.'

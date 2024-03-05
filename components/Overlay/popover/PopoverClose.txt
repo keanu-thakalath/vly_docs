@@ -1,0 +1,2 @@
+PopoverClose
+Wraps the control that will close the popover.

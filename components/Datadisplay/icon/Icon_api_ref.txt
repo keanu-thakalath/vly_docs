@@ -1,0 +1,2 @@
+Props:
+name='size' type_=reflex.vars.Var[int] description=' The size of the icon in pixels.'

@@ -1,0 +1,2 @@
+HighLevelCheckbox
+A checkbox component with a label.

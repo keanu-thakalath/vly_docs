@@ -1,0 +1,6 @@
+Props:
+name='open' type_=reflex.vars.Var[bool] description=' The controlled open state of the popover.'
+name='modal' type_=reflex.vars.Var[bool] description=' The modality of the popover. When set to true, interaction with outside elements will be disabled and only popover content will be visible to screen readers.'
+
+Events:
+('on_open_change', {'description': 'The on_open_change event handler is called when the open state of the component changes.'})

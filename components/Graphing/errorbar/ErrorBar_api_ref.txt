@@ -1,0 +1,6 @@
+Props:
+name='direction' type_=reflex.vars.Var[typing.Literal['x', 'y', 'both']] description=" The direction of error bar. 'x' | 'y' | 'both'"
+name='data_key' type_=reflex.vars.Var[typing.Union[str, int]] description=' The key of a group of data which should be unique in an area chart.'
+name='width' type_=reflex.vars.Var[int] description=' The width of the error bar ends.'
+name='stroke' type_=reflex.vars.Var[str] description=' The stroke color of error bar.'
+name='stroke_width' type_=reflex.vars.Var[int] description=' The stroke width of error bar.'

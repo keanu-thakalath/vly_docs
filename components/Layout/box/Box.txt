@@ -1,0 +1,2 @@
+Box
+A fundamental layout building block, based on `div` element.

@@ -1,0 +1,2 @@
+Props:
+name='default_open' type_=reflex.vars.Var[bool] description=' Whether the panel is open. Defaults to False.'

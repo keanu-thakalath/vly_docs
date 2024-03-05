@@ -1,0 +1,5 @@
+Props:
+name='side' type_=reflex.vars.Var[typing.Literal['top', 'right', 'bottom', 'left']] description=' The preferred side of the trigger to render against when open. Will be reversed when collisions occur and avoidCollisions is enabled.'
+name='side_offset' type_=reflex.vars.Var[int] description=' The distance in pixels from the trigger.'
+name='align' type_=reflex.vars.Var[typing.Literal['start', 'center', 'end']] description=' The preferred alignment against the trigger. May change when collisions occur.'
+name='avoid_collisions' type_=reflex.vars.Var[bool] description=' Whether or not the hover card should avoid collisions with its trigger.'

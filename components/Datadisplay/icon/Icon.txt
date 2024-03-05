@@ -1,0 +1,2 @@
+Icon
+An Icon component.

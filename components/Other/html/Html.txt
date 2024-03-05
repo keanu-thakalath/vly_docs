@@ -1,0 +1,6 @@
+Html
+Render the html.
+
+    Returns:
+        The code to render the  html component.
+    

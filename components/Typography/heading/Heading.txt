@@ -1,0 +1,2 @@
+Heading
+A foundational text primitive based on the <span> element.

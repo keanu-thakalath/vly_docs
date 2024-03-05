@@ -1,0 +1,2 @@
+HStack
+A horizontal stack component.

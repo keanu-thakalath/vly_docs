@@ -1,0 +1,6 @@
+Props:
+name='variant' type_=reflex.vars.Var[typing.Literal['classic', 'solid', 'soft', 'surface', 'outline', 'ghost']] description=' The visual variant to apply: "solid" | "soft" | "outline" | "ghost"'
+name='size' type_=reflex.vars.Var[typing.Literal['1', '2', '3', '4', '5', '6', '7', '8', '9']] description=' Text size: "1" - "9"'
+name='weight' type_=reflex.vars.Var[typing.Literal['light', 'regular', 'medium', 'bold']] description=' Thickness of text: "light" | "regular" | "medium" | "bold"'
+name='color_scheme' type_=reflex.vars.Var[typing.Literal['tomato', 'red', 'ruby', 'crimson', 'pink', 'plum', 'purple', 'violet', 'iris', 'indigo', 'blue', 'cyan', 'teal', 'jade', 'green', 'grass', 'brown', 'orange', 'sky', 'mint', 'lime', 'yellow', 'amber', 'gold', 'bronze', 'gray']] description=' Overrides the accent color inherited from the Theme.'
+name='high_contrast' type_=reflex.vars.Var[bool] description=' Whether to render the text with higher contrast color'

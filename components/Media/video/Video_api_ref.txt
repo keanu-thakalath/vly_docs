@@ -1,0 +1,10 @@
+Props:
+name='url' type_=reflex.vars.Var[str] description=' The url of a video or song to play'
+name='playing' type_=reflex.vars.Var[bool] description=' Set to true or false to pause or play the media'
+name='loop' type_=reflex.vars.Var[bool] description=' Set to true or false to loop the media'
+name='controls' type_=reflex.vars.Var[bool] description=' Set to true or false to display native player controls.'
+name='light' type_=reflex.vars.Var[bool] description=' Set to true to show just the video thumbnail, which loads the full player on click'
+name='volume' type_=reflex.vars.Var[float] description=' Set the volume of the player, between 0 and 1'
+name='muted' type_=reflex.vars.Var[bool] description=' Mutes the player'
+name='width' type_=reflex.vars.Var[str] description=' Set the width of the player: ex:640px'
+name='height' type_=reflex.vars.Var[str] description=' Set the height of the player: ex:640px'

@@ -1,0 +1,2 @@
+HoverCardTrigger
+Wraps the link that will open the hover card.

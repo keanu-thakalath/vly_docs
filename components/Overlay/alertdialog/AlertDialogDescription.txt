@@ -1,0 +1,4 @@
+AlertDialogDescription
+An optional accessible description that is announced when the dialog is opened.
+    This part is based on the Text component with a pre-defined font size.
+    

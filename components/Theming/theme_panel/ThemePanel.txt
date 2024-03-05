@@ -1,0 +1,5 @@
+ThemePanel
+Visual editor for creating and editing themes.
+
+    Include as a child component of Theme to use in your app.
+    

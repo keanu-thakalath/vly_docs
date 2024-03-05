@@ -1,0 +1,7 @@
+Props:
+name='default_value' type_=reflex.vars.Var[str] description=' The value of the tab that should be active when initially rendered. Use when you do not need to control the state of the tabs.'
+name='value' type_=reflex.vars.Var[str] description=' The controlled value of the tab that should be active. Use when you need to control the state of the tabs.'
+name='orientation' type_=reflex.vars.Var[typing.Literal['horizontal', 'vertical']] description=' The orientation of the tabs.'
+
+Events:
+('on_change', {'description': 'The on_change event handler is called when the value or checked state of the component changes.'})

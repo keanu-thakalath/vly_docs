@@ -1,0 +1,2 @@
+Badge
+A stylized badge element.

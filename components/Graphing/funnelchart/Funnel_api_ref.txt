@@ -1,0 +1,9 @@
+Props:
+name='data' type_=reflex.vars.Var[typing.List[typing.Dict[str, typing.Any]]] description=' The source data, in which each element is an object.'
+name='animation_begin' type_=reflex.vars.Var[int] description=' Specifies when the animation should begin, the unit of this option is ms.'
+name='animation_duration' type_=reflex.vars.Var[int] description=' Specifies the duration of animation, the unit of this option is ms.'
+name='animation_easing' type_=reflex.vars.Var[typing.Literal['ease', 'ease-in', 'ease-out', 'ease-in-out', 'linear']] description=" The type of easing function. 'ease' | 'ease-in' | 'ease-out' | 'ease-in-out' | 'linear'"
+name='layout' type_=reflex.vars.Var[typing.Literal['horizontal', 'vertical']] description=" The layout of bar in the chart, usually inherited from parent. 'horizontal' | 'vertical'"
+name='data_key' type_=reflex.vars.Var[typing.Union[str, int]] description=' The key of a group of data which should be unique in an area chart.'
+name='x_axis_id' type_=reflex.vars.Var[typing.Union[str, int]] description=' The id of x-axis which is corresponding to the data.'
+name='y_axis_id' type_=reflex.vars.Var[typing.Union[str, int]] description=' The id of y-axis which is corresponding to the data.'

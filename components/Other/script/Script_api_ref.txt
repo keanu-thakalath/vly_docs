@@ -1,0 +1,8 @@
+Props:
+name='src' type_=reflex.vars.Var[str] description=' Required unless inline script is used'
+name='strategy' type_=reflex.vars.Var[str] description=' When the script will execute: afterInteractive | beforeInteractive | lazyOnload'
+
+Events:
+('on_load', {'description': 'The on_load event handler is called when the user loads a form. For example, it is called when the user clicks on a load button.'})
+('on_ready', {'description': 'The on_ready event handler is called when the script is ready to be executed.'})
+('on_error', {'description': 'The on_error event handler is called when the user encounters an error in a form. For example, it’s called when the user clicks on a error button.'})

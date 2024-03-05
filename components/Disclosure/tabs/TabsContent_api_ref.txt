@@ -1,0 +1,2 @@
+Props:
+name='value' type_=reflex.vars.Var[str] description=' The value of the tab. Must be unique for each tab.'

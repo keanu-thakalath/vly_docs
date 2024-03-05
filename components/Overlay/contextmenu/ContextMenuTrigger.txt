@@ -1,0 +1,2 @@
+ContextMenuTrigger
+Wraps the element that will open the context menu.

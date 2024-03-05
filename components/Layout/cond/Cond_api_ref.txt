@@ -1,0 +1,4 @@
+Props:
+name='cond' type_=reflex.vars.Var[typing.Any] description=' The cond to determine which component to render.'
+name='comp1' type_=<class 'reflex.components.component.BaseComponent'> description=' The component to render if the cond is true.'
+name='comp2' type_=<class 'reflex.components.component.BaseComponent'> description=' The component to render if the cond is false.'

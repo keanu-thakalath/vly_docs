@@ -1,0 +1,2 @@
+SelectLabel
+Used to render the label of a group, it isn't focusable using arrow keys.

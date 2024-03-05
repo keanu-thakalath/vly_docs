@@ -1,0 +1,4 @@
+Props:
+name='value' type_=reflex.vars.Var[str] description=' A unique identifier for the item.'
+name='disabled' type_=reflex.vars.Var[bool] description=' When true, prevents the user from interacting with the item.'
+name='as_child' type_=reflex.vars.Var[bool] description=' Change the default rendered element for the one passed as a child.'

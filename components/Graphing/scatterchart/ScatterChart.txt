@@ -1,0 +1,2 @@
+ScatterChart
+A Scatter chart component in Recharts.

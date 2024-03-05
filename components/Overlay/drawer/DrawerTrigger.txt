@@ -1,0 +1,2 @@
+DrawerTrigger
+The button that opens the dialog.

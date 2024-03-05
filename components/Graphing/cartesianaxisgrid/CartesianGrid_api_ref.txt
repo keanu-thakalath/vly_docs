@@ -1,0 +1,10 @@
+Props:
+name='horizontal' type_=reflex.vars.Var[typing.Dict[str, typing.Any]] description=' The horizontal line configuration.'
+name='vertical' type_=reflex.vars.Var[typing.Dict[str, typing.Any]] description=' The vertical line configuration.'
+name='fill' type_=reflex.vars.Var[str] description=' The background of grid.'
+name='fill_opacity' type_=reflex.vars.Var[float] description=' The opacity of the background used to fill the space between grid lines'
+name='stroke_dasharray' type_=reflex.vars.Var[str] description=' The pattern of dashes and gaps used to paint the lines of the grid'
+name='x' type_=reflex.vars.Var[int] description=' The x-coordinate of grid.'
+name='y' type_=reflex.vars.Var[int] description=' The y-coordinate of grid.'
+name='width' type_=reflex.vars.Var[int] description=' The width of grid.'
+name='height' type_=reflex.vars.Var[int] description=' The height of grid.'

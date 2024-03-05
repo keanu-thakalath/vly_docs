@@ -1,0 +1,2 @@
+Props:
+name='cite' type_=reflex.vars.Var[typing.Union[str, int, bool]] description=' Specifies the source URL of the quote.'

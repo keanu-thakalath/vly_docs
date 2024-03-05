@@ -1,0 +1,2 @@
+TableRowHeaderCell
+A table cell that is semantically treated as a row header.

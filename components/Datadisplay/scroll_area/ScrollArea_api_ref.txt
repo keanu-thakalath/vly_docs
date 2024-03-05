@@ -1,0 +1,4 @@
+Props:
+name='scrollbars' type_=reflex.vars.Var[typing.Literal['vertical', 'horizontal', 'both']] description=' The alignment of the scroll area'
+name='type' type_=reflex.vars.Var[typing.Literal['auto', 'always', 'scroll', 'hover']] description=' Describes the nature of scrollbar visibility, similar to how the scrollbar preferences in MacOS control visibility of native scrollbars. "auto" | "always" | "scroll" | "hover"'
+name='scroll_hide_delay' type_=reflex.vars.Var[int] description=' If type is set to either "scroll" or "hover", this prop determines the length of time, in milliseconds, before the scrollbars are hidden after the user stops interacting with scrollbars.'

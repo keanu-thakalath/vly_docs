@@ -1,0 +1,10 @@
+Props:
+name='accept' type_=reflex.vars.Var[typing.Optional[typing.Dict[str, typing.List]]] description=' The list of accepted file types. This should be a dictionary of MIME types as keys and array of file formats as values. supported MIME types: https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types'
+name='disabled' type_=reflex.vars.Var[bool] description=' Whether the dropzone is disabled.'
+name='max_files' type_=reflex.vars.Var[int] description=' The maximum number of files that can be uploaded.'
+name='max_size' type_=reflex.vars.Var[int] description=' The maximum file size (bytes) that can be uploaded.'
+name='min_size' type_=reflex.vars.Var[int] description=' The minimum file size (bytes) that can be uploaded.'
+name='multiple' type_=reflex.vars.Var[bool] description=' Whether to allow multiple files to be uploaded.'
+name='no_click' type_=reflex.vars.Var[bool] description=' Whether to disable click to upload.'
+name='no_drag' type_=reflex.vars.Var[bool] description=' Whether to disable drag and drop.'
+name='no_keyboard' type_=reflex.vars.Var[bool] description=' Whether to disable using the space/enter keys to upload.'

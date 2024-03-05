@@ -1,0 +1,14 @@
+Props:
+name='orientation' type_=reflex.vars.Var[typing.Literal['top', 'bottom', 'left', 'right']] description=" The orientation of axis 'top' | 'bottom' | 'left' | 'right'"
+name='axis_line' type_=reflex.vars.Var[bool] description=' If set false, no axis line will be drawn. If set a object, the option is the configuration of axis line.'
+name='tick_line' type_=reflex.vars.Var[bool] description=' If set false, no axis tick lines will be drawn. If set a object, the option is the configuration of tick lines.'
+name='tick_size' type_=reflex.vars.Var[int] description=' The length of tick line.'
+name='interval' type_=reflex.vars.Var[typing.Literal['preserveStart', 'preserveEnd', 'preserveStartEnd']] description=' If set 0, all the ticks will be shown. If set preserveStart", "preserveEnd" or "preserveStartEnd", the ticks which is to be shown or hidden will be calculated automatically.'
+name='ticks' type_=reflex.vars.Var[bool] description=' If set false, no ticks will be drawn.'
+name='label' type_=reflex.vars.Var[str] description=' If set a string or a number, default label will be drawn, and the option is content.'
+name='mirror' type_=reflex.vars.Var[bool] description=' If set true, flips ticks around the axis line, displaying the labels inside the chart instead of outside.'
+name='tick_margin' type_=reflex.vars.Var[int] description=' The margin between tick line and tick.'
+name='x' type_=reflex.vars.Var[int] description=' The x-coordinate of grid.'
+name='y' type_=reflex.vars.Var[int] description=' The y-coordinate of grid.'
+name='width' type_=reflex.vars.Var[int] description=' The width of grid.'
+name='height' type_=reflex.vars.Var[int] description=' The height of grid.'

@@ -1,0 +1,7 @@
+Props:
+name='as_child' type_=reflex.vars.Var[bool] description=' Change the default rendered element for the one passed as a child, merging their props and behavior.'
+name='direction' type_=reflex.vars.Var[typing.Literal['row', 'column', 'row-reverse', 'column-reverse']] description=' How child items are layed out: "row" | "column" | "row-reverse" | "column-reverse"'
+name='align' type_=reflex.vars.Var[typing.Literal['start', 'center', 'end', 'baseline', 'stretch']] description=' Alignment of children along the main axis: "start" | "center" | "end" | "baseline" | "stretch"'
+name='justify' type_=reflex.vars.Var[typing.Literal['start', 'center', 'end', 'between']] description=' Alignment of children along the cross axis: "start" | "center" | "end" | "between"'
+name='wrap' type_=reflex.vars.Var[typing.Literal['nowrap', 'wrap', 'wrap-reverse']] description=' Whether children should wrap when they reach the end of their container: "nowrap" | "wrap" | "wrap-reverse"'
+name='spacing' type_=reflex.vars.Var[typing.Literal['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']] description=' Gap between children: "0" - "9"'

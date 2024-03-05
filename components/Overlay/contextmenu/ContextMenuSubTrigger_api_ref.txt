@@ -1,0 +1,2 @@
+Props:
+name='disabled' type_=reflex.vars.Var[bool] description=' Whether the trigger is disabled'

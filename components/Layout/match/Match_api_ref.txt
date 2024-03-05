@@ -1,0 +1,4 @@
+Props:
+name='cond' type_=reflex.vars.Var[typing.Any] description=' The condition to determine which case to match.'
+name='match_cases' type_=typing.List[typing.Any] description=' The list of match cases to be matched.'
+name='default' type_=typing.Any description=' The catchall case to match.'

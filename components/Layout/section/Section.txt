@@ -1,0 +1,2 @@
+Section
+Denotes a section of page content.

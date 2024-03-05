@@ -1,0 +1,9 @@
+Props:
+name='color_scheme' type_=reflex.vars.Var[typing.Literal['tomato', 'red', 'ruby', 'crimson', 'pink', 'plum', 'purple', 'violet', 'iris', 'indigo', 'blue', 'cyan', 'teal', 'jade', 'green', 'grass', 'brown', 'orange', 'sky', 'mint', 'lime', 'yellow', 'amber', 'gold', 'bronze', 'gray']] description=' Override theme color for Dropdown Menu Item'
+name='shortcut' type_=reflex.vars.Var[str] description=' Shortcut to render a menu item as a link'
+name='as_child' type_=reflex.vars.Var[bool] description=' Change the default rendered element for the one passed as a child, merging their props and behavior. Defaults to False.'
+name='disabled' type_=reflex.vars.Var[bool] description=' When true, prevents the user from interacting with the item.'
+name='text_value' type_=reflex.vars.Var[str] description=' Optional text used for typeahead purposes. By default the typeahead behavior will use the .textContent of the item. Use this when the content is complex, or you have non-textual content inside.'
+
+Events:
+('on_select', {'description': 'The on_select event handler is called when the user selects an item.'})

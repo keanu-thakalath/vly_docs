@@ -1,0 +1,2 @@
+Link
+A semantic element for navigation between pages.

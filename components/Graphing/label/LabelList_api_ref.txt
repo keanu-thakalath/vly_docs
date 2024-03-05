@@ -1,0 +1,6 @@
+Props:
+name='data_key' type_=reflex.vars.Var[typing.Union[str, int]] description=' The key of a group of label values in data.'
+name='position' type_=reflex.vars.Var[typing.Literal['top', 'left', 'right', 'bottom', 'inside', 'outside', 'insideLeft', 'insideRight', 'insideTop', 'insideBottom', 'insideTopLeft', 'insideBottomLeft', 'insideTopRight', 'insideBottomRight', 'insideStart', 'insideEnd', 'end', 'center']] description=' The position of each label relative to it view box。"Top" | "left" | "right" | "bottom" | "inside" | "outside" | "insideLeft" | "insideRight" | "insideTop" | "insideBottom" | "insideTopLeft" | "insideBottomLeft" | "insideTopRight" | "insideBottomRight" | "insideStart" | "insideEnd" | "end" | "center"'
+name='offset' type_=reflex.vars.Var[int] description=' The offset to the specified "position"'
+name='fill' type_=reflex.vars.Var[str] description=' Color of the fill'
+name='stroke' type_=reflex.vars.Var[str] description=' Color of the stroke'

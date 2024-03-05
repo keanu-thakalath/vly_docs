@@ -1,0 +1,2 @@
+Slider
+Provides user selection from a range of values.

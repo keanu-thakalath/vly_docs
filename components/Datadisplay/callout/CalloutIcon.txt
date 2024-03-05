@@ -1,0 +1,2 @@
+CalloutIcon
+Provides width and height for the icon associated with the callout.

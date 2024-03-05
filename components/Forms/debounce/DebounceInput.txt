@@ -1,0 +1,7 @@
+DebounceInput
+The DebounceInput component is used to buffer input events on the client side.
+
+    It is intended to wrap various form controls and should be used whenever a
+    fully-controlled input is needed to prevent lost input data when the backend
+    is experiencing high latency.
+    

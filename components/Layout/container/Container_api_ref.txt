@@ -1,0 +1,2 @@
+Props:
+name='size' type_=reflex.vars.Var[typing.Literal['1', '2', '3', '4']] description=' The size of the container: "1" - "4" (default "4")'
